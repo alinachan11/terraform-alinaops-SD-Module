@@ -21,4 +21,5 @@ OPTIONAL:
 The module generates the following outputs:
 1) ubuntu_consul_servers_private_addresses
 2) consul_lb_dns
+3) consul_lb_zone_id
 
