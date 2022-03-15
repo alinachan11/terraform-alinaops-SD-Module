@@ -7,5 +7,9 @@ output "consul_lb_dns" {
     value = aws_lb.consul_servers_alb.dns_name
 }
 
+output "consul_lb_zone_id" {
+    value = aws_lb.consul_servers_alb.zone_id
+}
+
 
 
