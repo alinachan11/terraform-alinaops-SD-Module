@@ -30,7 +30,7 @@ resource "aws_lb_target_group" "consul_servers" {
 
   health_check {
     enabled = true
-    path    = "/"
+    path    = "/ui/opsschool/services"
   }
 
   tags = {
