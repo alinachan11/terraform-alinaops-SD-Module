@@ -19,6 +19,7 @@ resource "aws_instance" "consul_servers" {
     consul_server = "true"
     consul_type ="server"
     consul_connect = "true"
+    task2 = "node_exporter"
 
   }
   provisioner "file" {
